@@ -1,0 +1,166 @@
+#banner {
+    background-attachment: scroll;
+    background-color: #c4c4c4;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 0 20px;
+    padding: 70px 0;
+    position: relative;
+}
+
+#banner .copy {
+    /* background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0; */
+    display: inline;
+    float: left;
+    max-width: 100%;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+#banner .container {
+    width: 60%;
+}
+
+#banner h2 {
+    color: #fff;
+    font-family: font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 50px;
+    font-stretch: condensed;
+    font-weight: 700;
+    line-height: 0.9;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+#banner .intro {
+    color: #fff;
+    font-size: 21px;
+    opacity: 0.75;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.navbar a {
+	color: #FD0000;
+}
+
+a.navbar-brand {
+    color: #FFA500;
+}
+
+.navbar-inverse {
+    background-color: #444;
+    border-color: #080808;
+}
+
+/* Sidebar settings */
+#niu2-sidebar-toc {
+    margin-top: 10px!important;
+    min-width: 400px!important;
+}
+
+#content-heading {
+    padding-top: 0px;
+	padding-bottom: 10px;
+}
+
+div.collapseheader {
+    width=88%;
+    background-color: #cccccc;
+    padding: 2px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+div.collapseheader .input_area {
+    max-width: 100%;
+}
+
+/*
+div.input_prompt {
+    display: none;
+}
+*/
+
+div.cell a.anchor-link {
+    display: none;
+}
+
+/* Ipython settings */
+pre.ipynb {
+    font-size: 11px;
+}
+
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+}
+
+div.svg_output {
+    height: auto;
+	max-width: 100%;
+	width: 100%;
+}
+
+div.entry-content {
+  overflow: visible;
+  padding: 8px;
+}
+.input_area {
+  padding: 0.2em;
+}
+
+a.heading-anchor {
+ white-space: normal;
+}
+
+.rendered_html
+code {
+ font-size: .8em;
+}
+
+pre.ipynb {
+  color: black;
+  background: #f7f7f7;
+  border: none;
+  box-shadow: none;
+  margin-bottom: 0;
+  padding: 0;
+  margin: 0px;
+  font-size: 11px;
+  width: 100%;
+  max-width: 100%;
+}
+
+/* remove the prompt div from text cells */
+div.text_cell .prompt {
+    display: none;
+}
+
+/* remove horizontal padding from text cells, */
+/* so it aligns with outer body text */
+div.text_cell_render {
+    padding: 0.5em 0em;
+}
+
+img.anim_icon{padding:0; border:0; vertical-align:middle; -webkit-box-shadow:none; -box-shadow:none}
+
+div.collapseheader {
+    width=100%;
+    background-color:#d3d3d3;
+    padding: 2px;
+    cursor: pointer;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* Bootstrap settings */
+table {
+    table-layout: fixed;
+    word-wrap: break-word;
+}

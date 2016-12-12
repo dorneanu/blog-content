@@ -1,0 +1,22 @@
+.container {
+    width: 80%;
+}
+
+.navbar  {
+    background-color: #111111;
+}
+
+.navbar-header a {
+    color: #FD0000;
+}
+
+.navbar-default .navbar-nav .active a,
+.navbar-default .navbar-nav a:hover,
+.navbar-default .navbar-nav a:hover {
+    color: #FFFFFF;
+    background-color: #111111;
+}
+
+a.navbar-brand {
+    color: #FFFFFF;
+}

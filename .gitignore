@@ -1,0 +1,11 @@
+output
+env
+logs
+cache
+*.swp
+*.swo
+*.pid
+*.pyc
+content.tmp
+tmp
+

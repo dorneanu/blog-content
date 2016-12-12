@@ -1,0 +1,7 @@
+Title: usd AG Hacker challenge 2015 - Solutions
+Date: 2015-03-18
+Tags: android, hacking, networking, security, ipython, ctf, usd, wargames
+Category: blog
+
+{% notebook 2015-03-18-USD-Hackertag-2015.v3.ipynb %}
+
